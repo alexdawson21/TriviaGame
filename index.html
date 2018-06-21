@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thrones</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="background">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-12 header">
+                        <h1>Game of Trivia</h1>
+                        <br>
+                        <h3>You Win or You...Lose(the stakes aren't that high)</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 mx-auto box" id="question">
+                        <div id="questionText"></div>
+                        <br>
+                        <br>
+                        <button class="btn btn-secondary buttons" id="one"></button>
+                        <br>
+                        <br>
+                        <button class="btn btn-secondary buttons" id="two"></button>
+                        <br>
+                        <br>
+                        <button class="btn btn-secondary buttons" id="three"></button>
+                        <br>
+                        <br>
+                        <button class="btn btn-secondary buttons" id="four"></button>
+
+                    </div>
+                       
+                </div>
+                <div class="row">
+                        <div class="col-lg-7 mx-auto box">
+                            <div class="wrongAnswer">
+                               
+                            </div>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-lg-7 mx-auto box">
+                            <div class="rightAnswer">
+                                <h1>That is Correct!</h1>
+                                <br>
+                                <br>
+                                <br>
+                                <img src="./assets/images/cheers.jpg" class="align-items-center">
+                            </div>
+                        </div>
+                </div>
+                    <div class="row">
+                            <div class="col-lg-7 mx-auto box">
+                                <div id="scoreSheet">
+                                    <h1>Score</h1>
+                                    <br>
+                                    <h2>Correct: <span id="correctScore"></span></h2>
+                                    <br>
+                                    <br>
+                                    <h2>Wrong: <span id="wrongScore"></span></h2>
+                                    <br>
+                                    <br>
+                                    <button type="button" class="btn btn-secondary reset">Reset</button>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-lg-7 mx-auto box">
+                                <div id="outOfTime">
+                                    <h1>You Ran Out of Time!</h1>
+                                    <br>
+                                    <h1>Winter Has Come!</h1>
+                                    <img src="./assets/images/winter.jpg">
+                                    <br>
+                                    <br>
+                                    <button class="btn btn-secondary" id="continue">Continue</button>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+
+       
+        
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="./assets/javascript/app.js"></script>
+</html>

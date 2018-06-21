@@ -1,0 +1,37 @@
+.background {
+    background-image: url(../images/banners.jpg);
+    padding-bottom: 10%;
+}
+.header {
+    text-align: center;
+    color: white;
+
+}
+.box {
+    background-image: url(../images/paper.jpg);
+}
+#question {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+#scoreSheet {
+    text-align: center;
+    padding-bottom: 11%;
+    display: none;
+}
+#outOfTime{
+   text-align: center;
+   padding-bottom: 8%;
+   display: none;
+}
+.wrongAnswer{
+    text-align: center;
+   padding-bottom: 25%;
+   display: none;
+}
+.rightAnswer {
+    text-align: center;
+   padding-bottom: 15%;
+   display: none;
+}
